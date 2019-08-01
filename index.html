@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Vélo V</title>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  		crossorigin=""/>
+		<link rel="css/MarkerCluster.css"/>
+		<link rel="css/MarkerCluster.Default.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/cluster.css">
+	</head>
+
+
+	<body>
+		<div class= container-fluid id="barre_menu">
+			<div class="col-xs-12 col-sm-12 col-lg-12">
+				<img src="" alt="velib" />
+				<nav class="menu">
+					<ul class="nav nav-pills nav-justified">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Resérvation</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+
+	<!--Création du slider d'images-->
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<figure id="caroussel">
+					<img src="" alt="vélo" />
+					<img src="" alt="vélo" />
+					<figcaption>Consultez la carte des stations</figcaption>
+				</figure>
+			</div>
+		</div>
+
+
+
+
+
+
+	<!--Créer une div pour intégrer la map dans le HTML-->
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-lg-12">
+				<div id="mapid"></div>
+				<div id="detailstation">
+					<h3>Détails de la station</h3>
+					<p>Nom : <span id="name"></span></p>
+					<p>Places : <span id="place"></span></p>
+					<p>Nombre de vélos disponibles : <span id="dispo"></span></p>
+				</div>
+
+			</div>
+		</div>
+
+		<!--JAVASCRIPT-->
+		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  		integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+		  crossorigin=""></script>
+		  
+		<script
+		src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous"></script>
+		<script src="js/leaflet.markercluster.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>		
+	</body>
+</html>

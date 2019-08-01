@@ -1,0 +1,15 @@
+#barre_menu {
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(white, rgb(192, 192, 192));
+	width: 100%;
+}
+
+
+#mapid { 
+	height: 380px;
+	width: 500px;
+	margin: auto;
+}
+
+
