@@ -1,9 +1,5 @@
 
 
-
-
-J'ai crée une map avec Leaflet
-
 ## __Stack utilisé :__
 
 HTML - CSS - Javascript
