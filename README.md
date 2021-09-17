@@ -1,9 +1,5 @@
 
 
-## __Objectif du projet :__
-
-Création d'une carte avec Leaflet
-
 ## __Description :__
 
 J'ai crée une map avec Leaflet
